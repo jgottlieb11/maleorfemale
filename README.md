@@ -24,13 +24,9 @@ To set up and run the system, follow these steps:
     pip install -r requirements.txt
     ```
 
-3. **Download and place the CelebA dataset**:
-   - Place the `list_attr_celeba.csv`, `list_bbox_celeba.csv`, and related files in the `celeba/` directory.
-   - Ensure images are located in `data/train/`, `data/test/`, and `data/val/` directories.
-
-4. **Run the system**:
+3. **Run the system**:
     ```bash
-    python src/real_time_recognition.py
+    python real_time_recognition.py
     ```
 
 ## Usage
