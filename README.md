@@ -1,12 +1,12 @@
-# Gender Recognition System
+# Gender Prediction System
 
-This project is a real-time facial recognition system designed to identify gender using a pre-trained model with the DeepFace library. The system is built in Python, leveraging various tools and libraries like OpenCV, Pandas, and Matplotlib for face detection, data management, and performance visualization.
+This project is a real-time facial recognition system designed to predict gender using a pre-trained model with the DeepFace library. The system is built in Python, leveraging various tools and libraries like OpenCV, Pandas, and Matplotlib for face detection, data management, and performance visualization.
 
 ## Features
 
-- **Real-Time Recognition**: Processes video feeds to detect and classify gender in real-time.
+- **Real-Time Recognition**: Processes video feeds to detect and predict gender in real-time.
 - **DeepFace Integration**: Uses DeepFace for feature extraction from facial images.
-- **SVM Classifier**: Trained on the CelebA dataset from Kaggle to accurately classify gender.
+- **SVM Classifier**: Trained on the CelebA dataset from Kaggle to accurately predict gender.
 - **Performance Metrics**: Evaluates model performance using accuracy and F1-score, with results visualized through confusion matrices.
 
 ## Installation
